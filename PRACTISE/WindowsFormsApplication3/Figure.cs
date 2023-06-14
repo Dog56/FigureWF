@@ -1,8 +1,8 @@
 ﻿namespace FiguresWF
 {
-    internal abstract class Figure
+    internal  class Figure
     {
-        public abstract double Square();
+        public  double Square();
 
         public virtual double Perimetr { get { return 0; } }
 
